@@ -3,7 +3,8 @@
   :author "Eitaro Fukamachi"
   :license "MIT"
   :depends-on ("quri"
-               "local-time")
+               "local-time"
+	       "cl-cookie")
   :components ((:file "src/response")))
 
 (register-system-packages "lack-response" '(:lack.response))
